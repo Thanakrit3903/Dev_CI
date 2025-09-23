@@ -6,7 +6,7 @@ on:
       - main
 
 jobs:
-  install_node_test:
+  install_node_test_job1:
     runs-on: ubuntu-latest
     steps:
       - name: Step 1 Checkout code
@@ -17,3 +17,13 @@ jobs:
           node-version: '18'
       - name: Print Mt Name
         run: echo "Thanap"
+  install_node_test_job2:
+    needs: install_node_test_job1
+    runs-on: ubuntu-latest
+    steps:
+      - name: Step 2 Setup Node v18
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18'
+      - name: Print Hello
+        run: echo "Hello world"
