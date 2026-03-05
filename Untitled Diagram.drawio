@@ -1,0 +1,94 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36 Edg/130.0.0.0" version="29.6.0">
+  <diagram name="Page-1" id="3EH-9JliYUH4rrxfcSav">
+    <mxGraphModel dx="973" dy="578" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Kd83uJJN3V9b_UG03XWK-1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=15;fontStyle=1" value="Salesforce Delta CI/CD" vertex="1">
+          <mxGeometry height="60" width="250" x="260" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Kd83uJJN3V9b_UG03XWK-5" edge="1" parent="1" source="Kd83uJJN3V9b_UG03XWK-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="Kd83uJJN3V9b_UG03XWK-4" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Kd83uJJN3V9b_UG03XWK-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Push code to main branch" vertex="1">
+          <mxGeometry height="60" width="150" x="80" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Kd83uJJN3V9b_UG03XWK-7" edge="1" parent="1" source="Kd83uJJN3V9b_UG03XWK-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="Kd83uJJN3V9b_UG03XWK-6" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Kd83uJJN3V9b_UG03XWK-4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Validate and Deploy" vertex="1">
+          <mxGeometry height="60" width="180" x="270" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Kd83uJJN3V9b_UG03XWK-9" edge="1" parent="1" source="Kd83uJJN3V9b_UG03XWK-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="Kd83uJJN3V9b_UG03XWK-8" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Kd83uJJN3V9b_UG03XWK-11" edge="1" parent="1" source="Kd83uJJN3V9b_UG03XWK-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="Kd83uJJN3V9b_UG03XWK-10" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Kd83uJJN3V9b_UG03XWK-6" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Check out source code" vertex="1">
+          <mxGeometry height="60" width="180" x="270" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="Kd83uJJN3V9b_UG03XWK-8" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Pull code to main branch" vertex="1">
+          <mxGeometry height="60" width="150" x="80" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="Kd83uJJN3V9b_UG03XWK-13" edge="1" parent="1" source="Kd83uJJN3V9b_UG03XWK-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="Kd83uJJN3V9b_UG03XWK-12" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Kd83uJJN3V9b_UG03XWK-10" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Set up Node.js" vertex="1">
+          <mxGeometry height="60" width="180" x="270" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="Kd83uJJN3V9b_UG03XWK-15" edge="1" parent="1" source="Kd83uJJN3V9b_UG03XWK-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="Kd83uJJN3V9b_UG03XWK-14" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Kd83uJJN3V9b_UG03XWK-12" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Cache salesforce CLI" vertex="1">
+          <mxGeometry height="60" width="180" x="270" y="350" as="geometry" />
+        </mxCell>
+        <mxCell id="Kd83uJJN3V9b_UG03XWK-17" edge="1" parent="1" source="Kd83uJJN3V9b_UG03XWK-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="Kd83uJJN3V9b_UG03XWK-16" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Kd83uJJN3V9b_UG03XWK-14" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Install Salesforce CLI &amp;amp; SDG Plugin" vertex="1">
+          <mxGeometry height="60" width="180" x="270" y="440" as="geometry" />
+        </mxCell>
+        <mxCell id="Kd83uJJN3V9b_UG03XWK-19" edge="1" parent="1" source="Kd83uJJN3V9b_UG03XWK-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="Kd83uJJN3V9b_UG03XWK-18" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Kd83uJJN3V9b_UG03XWK-16" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Authenticate to Salesforce" vertex="1">
+          <mxGeometry height="60" width="180" x="270" y="530" as="geometry" />
+        </mxCell>
+        <mxCell id="Kd83uJJN3V9b_UG03XWK-21" edge="1" parent="1" source="Kd83uJJN3V9b_UG03XWK-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="Kd83uJJN3V9b_UG03XWK-20" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Kd83uJJN3V9b_UG03XWK-18" parent="1" style="whiteSpace=wrap;html=1;rounded=1;" value="Read api version from Project" vertex="1">
+          <mxGeometry height="60" width="180" x="270" y="620" as="geometry" />
+        </mxCell>
+        <mxCell id="Kd83uJJN3V9b_UG03XWK-23" edge="1" parent="1" source="Kd83uJJN3V9b_UG03XWK-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="Kd83uJJN3V9b_UG03XWK-22" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Kd83uJJN3V9b_UG03XWK-20" parent="1" style="whiteSpace=wrap;html=1;rounded=1;" value="Create Delta Manifest" vertex="1">
+          <mxGeometry height="60" width="180" x="270" y="710" as="geometry" />
+        </mxCell>
+        <mxCell id="Kd83uJJN3V9b_UG03XWK-25" edge="1" parent="1" source="Kd83uJJN3V9b_UG03XWK-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="Kd83uJJN3V9b_UG03XWK-24" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Kd83uJJN3V9b_UG03XWK-22" parent="1" style="whiteSpace=wrap;html=1;rounded=1;" value="Debug List Delta Files" vertex="1">
+          <mxGeometry height="60" width="180" x="270" y="800" as="geometry" />
+        </mxCell>
+        <mxCell id="Kd83uJJN3V9b_UG03XWK-29" edge="1" parent="1" source="Kd83uJJN3V9b_UG03XWK-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="Kd83uJJN3V9b_UG03XWK-28" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Kd83uJJN3V9b_UG03XWK-24" parent="1" style="whiteSpace=wrap;html=1;rounded=1;" value="Identify Unique Tests" vertex="1">
+          <mxGeometry height="60" width="180" x="270" y="890" as="geometry" />
+        </mxCell>
+        <mxCell id="Kd83uJJN3V9b_UG03XWK-31" edge="1" parent="1" source="Kd83uJJN3V9b_UG03XWK-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="Kd83uJJN3V9b_UG03XWK-30" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Kd83uJJN3V9b_UG03XWK-28" parent="1" style="whiteSpace=wrap;html=1;rounded=1;" value="Deploy Selective Source" vertex="1">
+          <mxGeometry height="60" width="180" x="270" y="980" as="geometry" />
+        </mxCell>
+        <mxCell id="Kd83uJJN3V9b_UG03XWK-30" parent="1" style="whiteSpace=wrap;html=1;rounded=1;" value="Summary" vertex="1">
+          <mxGeometry height="60" width="180" x="270" y="1070" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
